@@ -1,0 +1,154 @@
+@font-face {
+    font-family: kajiro;
+    src: url('Kajiro\ Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+#top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 0;
+    pointer-events: none;
+}
+
+#back {
+    width: 100%;
+    height: 100%;
+}
+
+#back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#workingarea {
+    width: 80%;
+    height: 100%;
+    max-width: 1900px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: sans-serif;
+    pointer-events: all;
+}
+
+#container {
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left-box {
+    width: 40%;
+    /* background-color: red; */
+    height: 100%;
+}
+
+#right-box {
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+#left-box h1 {
+    font-size: 10rem;
+    font-family: Kajiro;
+    color: #fff;
+    font-weight: 100;
+    top: 100%;
+    position: absolute;
+}
+
+#left-box h1:nth-child(1) {
+    top: 0;
+}
+
+#elem {
+    /* background-color: rgb(255, 115, 0); */
+    position: relative;
+    height: 9rem;
+    /* margin-bottom: 1rem; */
+    overflow: hidden;
+}
+
+button {
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: .5rem 1.3rem;
+    font-family: kajiro;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+#right-box .img {
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1507036066871-b7e8032b3dea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z2lybHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#right-box p {
+    margin-top: 1rem;
+}
+
+#right-box {
+    text-align: end;
+    color: #fff;
+}
